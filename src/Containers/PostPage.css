@@ -1,0 +1,82 @@
+  .MainDiv{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 5%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    padding: 5%;
+    width: 80%;
+  }
+  
+  .Post-box{
+    width: 80%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+  }
+  .Post-box-h1{
+    color: #59546C;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .Post-box-inputT,.Post-box-inputP{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A96DA3;
+    padding: 14px 10px;
+    width: 70%;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .Post-box-inputT:focus,.Post-box-inputP:focus{
+    border-color: #59546C;
+  }
+  .Post-box-inputS{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #59546C;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .Post-box-inputS:hover{
+    background: #59546C;
+    color: white;
+  }
+
+
+  .Post-box-inputTL,.Post-box-inputPL{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #A96DA3;
+    padding: 14px 10px;
+    width: 70%;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+
+  }
+  .Post-box-inputTL:focus,.Post-box-inputPL:focus{
+    height: 300px;
+    border-color: #59546C;
+  }

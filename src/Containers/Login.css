@@ -1,0 +1,15 @@
+.Login-div{
+    border: black;
+    border-width: 5px;
+    box-shadow: black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.LoginDisplay{
+    display: inline-block;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    vertical-align: middle;
+}

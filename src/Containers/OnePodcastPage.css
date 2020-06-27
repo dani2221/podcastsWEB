@@ -1,0 +1,65 @@
+.Player {
+    width: 100%;
+    margin: 30px;
+    margin-right: 0px;
+}
+.FullDiv{
+    display: table;
+    width: 100%;
+}
+/* display: 'inline-block',textAlign: 'start',maxWidth: '800px',marginRight: '100px' */
+.Containerr{
+    display: table-cell;
+    text-align: start;
+    width: 90%;
+}
+.Title {
+    text-align: start;
+    font-weight: 900;
+    font-size: xx-large;
+    margin: 30px;
+    display: block;
+    color: #6d6875;
+}
+.Infodiv {
+    text-align: start;
+    align-items: flex-start;
+    margin: 30px;
+    display: block;
+    max-width: 800px;
+}
+.Info {
+    text-align: start;
+    font-weight: 600;
+    font-size: large;
+    display: block;
+    color: #CF9893;
+}
+.Short {
+    display: block;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    min-height: 50px;
+    color: #CF9893;
+    background-color: white;
+}
+/* style={{display: 'table-cell',verticalAlign: 'top',width: 'auto'}} */
+
+.Share{
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+}
+@media screen and (max-width: 750px){
+    .Share{
+        display: block;
+        width: 300px;
+    }
+    .Containerr{
+        display: block;
+    }
+}
